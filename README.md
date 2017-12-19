@@ -35,4 +35,4 @@ ek.get_data(['.SOLDMA'], ['CF_High', 'CF_Low'])
 ( Instrument CF_HIGH CF_LOW
 0 .SOLDMA 355.79 353.45, None)
 ```
-10. An extensive list of Eikon API parameters and example calls can be found [here](https://docs-developers.thomsonreuters.com/1513187148816/14684/book/en/eikon/index.html#get_data). 
+11. An extensive list of Eikon API parameters and example calls can be found [here](https://docs-developers.thomsonreuters.com/1513187148816/14684/book/en/eikon/index.html#get_data). 
