@@ -29,7 +29,7 @@ ek.get_news_headlines('R:LHAG.DE', date_from='2017-04-05T09:00:00', date_to='201
 
 ![Alt Text](https://media.giphy.com/media/d3OG1zusIRPrmROM/giphy.gif)
 
-10. For example, if you were interested in the **Solactive German Mergers & Acquistions Performance Index**, you would search for the index in **"Instrument."** DIB would tell your instrument parameter is **".SOLDMA"**. If you wanted to pull .SOLDMA's highest and lowest bid price for the day, you would search in **"Find Data Item."** DIB would tell you your parameters are **"CF_High"** and **"CF_Low"**, as seen under Data Item Code.  
+10. For example, if you were interested in the **Solactive German Mergers & Acquistions Performance Index**, you would search for the index in **Instrument.** DIB would tell your instrument parameter is **".SOLDMA"**. If you wanted to pull .SOLDMA's highest and lowest bid price for the day, you would search in **Find Data Item.** DIB would tell you your parameters are **"CF_High"** and **"CF_Low"**, as seen under **Data Item Code**.  
 ```
 ek.get_data(['.SOLDMA'], ['CF_High', 'CF_Low'])
 ( Instrument CF_HIGH CF_LOW
